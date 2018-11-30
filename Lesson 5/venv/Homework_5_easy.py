@@ -4,7 +4,6 @@
 # И второй скрипт, удаляющий эти папки.
 
 import os
-
 import shutil
 def new(name):
     path = os.path.join(name)
@@ -42,5 +41,4 @@ contains()
 import shutil
 def file_copy():
     shutil.copy(r"hw05_easy.py",r"hw05_easy_copy.py")
-
 file_copy()
